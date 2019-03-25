@@ -35,11 +35,11 @@
         </div>
 
         <div class="info" style="padding-top:12px">
-            <title-heading>{{book_details[1]}}</title-heading>
-            <loan-time>GENRE: {{book_details[2]}}</loan-time><br/><br/>
+            <title-heading>{{book_details[1]}}</title-heading><br><br>
+            
             <author-heading>{{book_details[5]}}</author-heading><br/><br/>
             <div class="description">{{book_details[3]}}</div><br/><br/><br/>
-            <location-heading>LOCATION: {{book_details[4]}}</location-heading><br/>
+            <location-heading>LOCATION: {{book_details[4]}}</location-heading><br/><br>
             <button class="button" style="margin-left:24px">LOAN THIS BOOK</button>
         </div><br/><br>
 

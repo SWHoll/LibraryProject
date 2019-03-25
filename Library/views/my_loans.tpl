@@ -27,12 +27,12 @@
                     </div>
                 </div>
             </div>
-        </div><br/><br/>
+        </div>
 
-        <div class="section-heading">OVERDUE BOOKS</div><br/>
+        <div class="section-heading">OVERDUE BOOKS</div>
         <div class="book-group">
             <a href="/book_page/IB_TheWaspFactory"><img src="/img/IB_TheWaspFactory.jpg"></a>
-        </div><br/>
+        </div>
 
         <div class="section-heading">CURRENTLY ON LOAN</div><br/>
         <div class="book-cover" style="display: inline-block;">
