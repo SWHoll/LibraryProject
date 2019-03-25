@@ -7,16 +7,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-
+        <!-- navigation -->
         <div class="top-nav">
-
                 <a href="/home">HOME</a>
                 <div class="search-bar">
                     <form action="/search">
                         <input type="text" placeholder="Search..." name="phrase">
                     </form>
                 </div>
-                    
                 <div class="r">
                     <a href="/add_book">ADD BOOK</a>
                     <a style="background-color: #efe464; color: black;" href="/my_loans">MY LOANS</a>
@@ -30,13 +28,13 @@
                 </div>
             </div>
 
-
+<!-- overdue books -->
 <br/><div class="section-heading">OVERDUE BOOKS</div><br/>
-
 <div class="book-group">
 	<a href="/book_page/IB_TheWaspFactory"><img src="/img/IB_TheWaspFactory.jpg"></a>
 </div> <br/>
 
+<!-- current loans -->
 <div class="section-heading">CURRENTLY ON LOAN</div><br/>
 
 <div class="book-cover" style="display: inline-block;">

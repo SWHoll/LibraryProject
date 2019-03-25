@@ -7,6 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+    <!-- naigation-->
         <div class="top-nav">
                 <a href="/home">HOME</a>
                 <div class="search-bar">
@@ -27,6 +28,7 @@
                 </div>
         </div>
 
+<!-- add book form -->
 <br/><div class="section-heading">ADD A NEW BOOK TO THE LIBRARY</div><br/>
 <div class="add_book_form">
     <form method="post" action="/add_book/added">
