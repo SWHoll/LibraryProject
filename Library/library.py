@@ -114,7 +114,7 @@ def book_added(db):
     book_id = db.execute("select last_insert_rowid()")
     # add copies
     barcode_nums = request.forms.get('barcode_nums').split()
-    for int(barcode) in barcode_nums:
+    for barcode in barcode_nums:
         db.execute("insert into copy (barcode_number, book_id) values (?,?)", (barcode, book_id))
     redirect('/home')
 
